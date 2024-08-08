@@ -3,21 +3,23 @@ import csv
 
 # Set up Rock RMS API details
 api_base_url = "https://rock.gdlc.org/api"
-login_url = f"{api_base_url}/auth/login"
-username = "[REDACTED]"
-password = "[REDACTED]"
+login_url = f"{api_base_url}/Auth/Login"
+username = "/REDACT/"
+password = "/REDACT/"
+
 
 # Function to authenticate and return a session
 def authenticate():
     session = requests.Session()
     login_data = {
         "Username": username,
-        "Password": password
+        "Password": password,
+        "Persisted": True
     }
     login_response = session.post(login_url, json=login_data)
     
     # Check if login was successful
-    if login_response.status_code != 200:
+    if login_response.status_code != 204:
         raise Exception("Failed to log in, check your credentials or login endpoint.")
     
     return session
@@ -26,13 +28,11 @@ def authenticate():
 session = authenticate()
 
 # Function to search for person by first and last name
-def search_person(first_name, last_name):
+def get_people():
     global session  # Ensure the session is accessible
     
-    url = f"{api_base_url}/People"
-    params = {
-        "FullName": first_name + " " + last_name
-    }
+    url = f"{api_base_url}/People?$select=FirstName,LastName,Id"
+    params = {}
     response = session.get(url, params=params)  # Use session to maintain the cookie
     
     # Check if session has expired
@@ -43,15 +43,25 @@ def search_person(first_name, last_name):
     
     return response.json()
 
-# Function to update person attributes
-def update_person_attributes(person_id, attributes):
-    global session  # Ensure the session is accessible
+def get_matches(personList, firstName, lastName):
+    count = 0
+    Id = None
     
-    url = f"{api_base_url}/AttributeValues"
+    for record in personList:
+        if firstName == record['FirstName'] and lastName == record['LastName']:
+            Id = record['Id']
+            count += 1
+
+    return Id, count
+
+def post_api_vals(url, person_id, attributeKey, attributeValue):
+    global session  # Ensure the session is accessible
     data = {
-        "PersonId": person_id,
-        "Attributes": attributes
+        "Id": {person_id},
+        "attributeKey": {attributeKey},
+        "attributeValue": {attributeValue}
     }
+
     response = session.post(url, json=data)  # Use session to maintain the cookie
     
     # Check if session has expired
@@ -59,11 +69,22 @@ def update_person_attributes(person_id, attributes):
         print("Session expired, re-authenticating...")
         session = authenticate()  # Re-authenticate and get a new session
         response = session.post(url, json=data)  # Retry the request
-    
+    elif response.status_code != 200:
+        Exception("Push failed")
+
     return response.json()
 
+# Function to update person attributes
+def update_person_attributes(person_id, attributes):
+    global session  # Ensure the session is accessible
+    
+    url = f"{api_base_url}/People/AttributeValue/{person_id}"
+    
+    post_api_vals(url, person_id, "GPSSpiritualGift1", attributes['GPSSpiritualGift1'])
+    post_api_vals(url, person_id, "GPSSpiritualGift2", attributes['GPSSpiritualGift2'])
+
 # Read CSV file
-csv_file_path = "./user_assessments.csv"
+csv_file_path = "user_assesments.csv"
 
 with open(csv_file_path, mode='r') as file:
     csv_reader = csv.DictReader(file)
@@ -77,15 +98,16 @@ with open(csv_file_path, mode='r') as file:
         latest_records[key] = row  # Replace with the latest row for each name
 
 # Process each unique name in the CSV
+people = get_people()
 for (first_name, last_name), row in latest_records.items():
-    matches = search_person(first_name, last_name)
+    person_id, count = get_matches(people, first_name, last_name)
     
-    if len(matches) > 1:
+    if count > 1:
         print(f"Multiple records found for {first_name} {last_name}")
-    elif len(matches) == 0:
+    elif count == 0:
         print(f"No records found for {first_name} {last_name}")
     else:
-        person_id = matches[0]['Id']
+        print(f"Match found for {first_name} {last_name} at ID={person_id}! Pushing attributes...")
         
         # Extract attributes from CSV row
         attributes = {
