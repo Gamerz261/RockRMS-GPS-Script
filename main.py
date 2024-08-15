@@ -4,8 +4,8 @@ import csv
 # Set up Rock RMS API details
 api_base_url = "https://rock.gdlc.org/api"
 login_url = f"{api_base_url}/Auth/Login"
-username = "/REDACT/"
-password = "/REDACT/"
+username = "/REDACTED/"
+password = "/REDACTED/"
 
 
 # Function to authenticate and return a session
@@ -57,9 +57,9 @@ def get_matches(personList, firstName, lastName):
 def post_api_vals(url, person_id, attributeKey, attributeValue):
     global session  # Ensure the session is accessible
     data = {
-        "Id": {person_id},
-        "attributeKey": {attributeKey},
-        "attributeValue": {attributeValue}
+        "Id": person_id,
+        "attributeKey": attributeKey,
+        "attributeValue": attributeValue
     }
 
     response = session.post(url, json=data)  # Use session to maintain the cookie
@@ -78,10 +78,11 @@ def post_api_vals(url, person_id, attributeKey, attributeValue):
 def update_person_attributes(person_id, attributes):
     global session  # Ensure the session is accessible
     
-    url = f"{api_base_url}/People/AttributeValue/{person_id}"
+    url = f"{api_base_url}/People/AttributeValue/"
     
-    post_api_vals(url, person_id, "GPSSpiritualGift1", attributes['GPSSpiritualGift1'])
-    post_api_vals(url, person_id, "GPSSpiritualGift2", attributes['GPSSpiritualGift2'])
+    print(post_api_vals(url, person_id, "GPSSpiritualGift1", attributes['GPSSpiritualGift1']))
+    print(post_api_vals(url, person_id, "GPSSpiritualGift1Score", attributes['GPSSpiritualGift1Score']))
+    print(post_api_vals(url, person_id, "GPSSpiritualGift2", attributes['GPSSpiritualGift2']))
 
 # Read CSV file
 csv_file_path = "user_assesments.csv"
