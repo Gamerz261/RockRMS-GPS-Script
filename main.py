@@ -4,8 +4,8 @@ import csv
 # Set up Rock RMS API details
 api_base_url = "https://rock.gdlc.org/api"
 login_url = f"{api_base_url}/Auth/Login"
-username = "/*redacted*/"
-password = "/*redacted*/"
+username = "/*REDACTED*/"
+password = "/*REDACTED*/"
 
 
 # Function to authenticate and return a session
@@ -63,7 +63,7 @@ def post_api_vals(url, person_id, attributeKey, attributeValue):
     #}
     #print(data)
     #print(f"{api_base_url}/People/AttributeValue/{person_id}?attributeKey={attributeKey}&attributeValue={attributeValue}")
-    
+
     # Determine if there is a value to put in
     if attributeValue != '':
         response = session.post(f"{api_base_url}/People/AttributeValue/{person_id}?attributeKey={attributeKey}&attributeValue={attributeValue}")  # Use session to maintain the cookie
@@ -76,7 +76,7 @@ def post_api_vals(url, person_id, attributeKey, attributeValue):
     if response.status_code == 401:
         print("Session expired, re-authenticating...")
         session = authenticate()  # Re-authenticate and get a new session
-        response = session.post(url, json=data)  # Retry the request
+        response = session.post(f"{api_base_url}/People/AttributeValue/{person_id}?attributeKey={attributeKey}&attributeValue={attributeValue}")  # Retry the request
 
     # Check if the response has a JSON body
     if (response.status_code == 200) or (response.status_code == 202):
@@ -94,6 +94,7 @@ def post_api_vals(url, person_id, attributeKey, attributeValue):
 def update_person_attributes(person_id, attributes):
     global session  # Ensure the session is accessible
     
+    #This literally won't be used at all but it's a pain in the ass to delete so I'm gonna leave it here
     url = f"{api_base_url}/AttributeValues/AttributeValue/11841/POSTapi_AttributeValues_AttributeValue_idattributeKeyattributeKeyattributeValueattributeValue"
 
     post_api_vals(url, person_id, "GPSSpiritualGift1", attributes['GPSSpiritualGift1'])
@@ -121,7 +122,7 @@ def update_person_attributes(person_id, attributes):
     post_api_vals(url, person_id, "GPSCausePassion3", attributes['GPSCausePassion3'])
 
 # Read CSV file
-csv_file_path = "user_assesments.csv"
+csv_file_path = "user_assesments_new.csv"
 
 with open(csv_file_path, mode='r') as file:
     csv_reader = csv.DictReader(file)
@@ -140,9 +141,9 @@ for (first_name, last_name), row in latest_records.items():
     person_id, count = get_matches(people, first_name, last_name)
     
     if count > 1:
-        print(f"Multiple records found for {first_name} {last_name}")
+        print(f"Multiple records found for {first_name} {last_name}\n")
     elif count == 0:
-        print(f"No records found for {first_name} {last_name}")
+        print(f"No records found for {first_name} {last_name}\n")
     else:
         print(f"Match found for {first_name} {last_name} at ID={person_id}! Pushing attributes...")
         
@@ -175,4 +176,4 @@ for (first_name, last_name), row in latest_records.items():
 
         # Update attributes for the matched person
         update_response = update_person_attributes(person_id, attributes)
-        print(f"Updated attributes for {first_name} {last_name} (ID: {person_id})")
+        print(f"Updated attributes for {first_name} {last_name} (ID: {person_id})\n")
