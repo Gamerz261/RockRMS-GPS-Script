@@ -4,8 +4,8 @@ import csv
 # Set up Rock RMS API details
 api_base_url = "https://rock.gdlc.org/api"
 login_url = f"{api_base_url}/Auth/Login"
-username = "/*REDACTED*/"
-password = "/*REDACTED*/"
+username = "/*redacted*/"
+password = "/*redacted*/"
 
 
 # Function to authenticate and return a session
@@ -57,33 +57,66 @@ def get_matches(personList, firstName, lastName):
 def post_api_vals(url, person_id, attributeKey, attributeValue):
     global session  # Ensure the session is accessible
     data = {
-        #"Id": person_id,
-        "attributeKey": f"{attributeKey}",
-        "attributeValue": f"{attributeValue}"
+        "Id": person_id,
+        "AttributeKey": f"{attributeKey}",
+        "AttributeValue": f"{attributeValue}"
     }
     print(data)
-    response = session.post(url, json=data)  # Use session to maintain the cookie
-    
+    print(f"{api_base_url}/People/AttributeValue/{person_id}?attributeKey={attributeKey}&attributeValue={attributeValue}")
+    if attributeValue != '':
+        response = session.post(f"{api_base_url}/People/AttributeValue/{person_id}?attributeKey={attributeKey}&attributeValue={attributeValue}")  # Use session to maintain the cookie
+    else:
+        print(f"Skipping {attributeKey} because AttributeValue = \'{attributeValue}\' (null)!")
+        return
+
+
     # Check if session has expired
     if response.status_code == 401:
         print("Session expired, re-authenticating...")
         session = authenticate()  # Re-authenticate and get a new session
         response = session.post(url, json=data)  # Retry the request
-    elif response.status_code != 200:
-        Exception("Push failed")
 
-    return response.json()
+    # Check if the response has a JSON body
+    if (response.status_code == 200) or (response.status_code == 202):
+        if response.headers.get('Content-Type') == 'application/json' and response.content:
+            return response.json()
+        else:
+            return response.text  # or handle non-JSON response
+    elif response.status_code == 204:
+        print("Update successful, but no content returned.")
+        return None
+    else:
+        raise Exception("Push failed with status code: " + str(response.status_code))
 
 # Function to update person attributes
 def update_person_attributes(person_id, attributes):
     global session  # Ensure the session is accessible
     
-    url = f"{api_base_url}/AttributeValues/AttributeValue/11841"
-    
-    print(url + str(person_id) + attributes['GPSSpiritualGift1'])
-    print(post_api_vals(url, person_id, "GPSSpiritualGift1", attributes['GPSSpiritualGift1']))
-    #print(post_api_vals(url, person_id, "GPSSpiritualGift1Score", attributes['GPSSpiritualGift1Score']))
-    #print(post_api_vals(url, person_id, "GPSSpiritualGift2", attributes['GPSSpiritualGift2']))
+    url = f"{api_base_url}/AttributeValues/AttributeValue/11841/POSTapi_AttributeValues_AttributeValue_idattributeKeyattributeKeyattributeValueattributeValue"
+
+    post_api_vals(url, person_id, "GPSSpiritualGift1", attributes['GPSSpiritualGift1'])
+    print(post_api_vals(url, person_id, "GPSSpiritualGift1Score", attributes['GPSSpiritualGift1Score']))
+    print(post_api_vals(url, person_id, "GPSSpiritualGift2", attributes['GPSSpiritualGift2']))
+    print(post_api_vals(url, person_id, "GPSSpiritualGift2Score", attributes['GPSSpiritualGift2Score']))
+    post_api_vals(url, person_id, "GPSSpiritualGift3", attributes['GPSSpiritualGift3'])
+    print(post_api_vals(url, person_id, "GPSSpiritualGift3Score", attributes['GPSSpiritualGift3Score']))
+    print(post_api_vals(url, person_id, "GPSSpiritualGift4", attributes['GPSSpiritualGift4']))
+    print(post_api_vals(url, person_id, "GPSSpiritualGift4Score", attributes['GPSSpiritualGift4Score']))
+    print(post_api_vals(url, person_id, "GPSKeyAbilities1", attributes['GPSKeyAbilities1']))
+    print(post_api_vals(url, person_id, "GPSKeyAbilities2", attributes['GPSKeyAbilities2']))
+    print(post_api_vals(url, person_id, "GPSKeyAbilities3", attributes['GPSKeyAbilities3']))
+    print(post_api_vals(url, person_id, "GPSPassion1", attributes['GPSPassion1']))
+    print(post_api_vals(url, person_id, "GPSPassion2", attributes['GPSPassion2']))
+    print(post_api_vals(url, person_id, "GPSPassion3", attributes['GPSPassion3']))
+    print(post_api_vals(url, person_id, "GPSPassion1Score", attributes['GPSPassion1Score']))
+    print(post_api_vals(url, person_id, "GPSPassion2Score", attributes['GPSPassion2Score']))
+    print(post_api_vals(url, person_id, "GPSPassion3Score", attributes['GPSPassion3Score']))
+    print(post_api_vals(url, person_id, "GPSPeoplePassion1", attributes['GPSPeoplePassion1']))
+    print(post_api_vals(url, person_id, "GPSPeoplePassion2", attributes['GPSPeoplePassion2']))
+    print(post_api_vals(url, person_id, "GPSPeoplePassion3", attributes['GPSPeoplePassion3']))
+    print(post_api_vals(url, person_id, "GPSCausePassion1", attributes['GPSCausePassion1']))
+    print(post_api_vals(url, person_id, "GPSCausePassion2", attributes['GPSCausePassion2']))
+    print(post_api_vals(url, person_id, "GPSCausePassion3", attributes['GPSCausePassion3']))
 
 # Read CSV file
 csv_file_path = "user_assesments.csv"
