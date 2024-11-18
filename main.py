@@ -4,8 +4,8 @@ import csv
 # Set up Rock RMS API details
 api_base_url = "https://rock.gdlc.org/api"
 login_url = f"{api_base_url}/Auth/Login"
-username = "/*REDACTED*/"
-password = "/*REDACTED*/"
+username = input("RockRMS Username :: ")
+password = input("RockRMS Password :: ")
 
 
 # Function to authenticate and return a session
@@ -46,13 +46,16 @@ def get_people():
 def get_matches(personList, firstName, lastName):
     count = 0
     Id = None
+    Id_List = []
+    Email_List = []
     
     for record in personList:
         if firstName == record['FirstName'] and lastName == record['LastName']:
             Id = record['Id']
             count += 1
+            Id_List.append(record['Id'])
 
-    return Id, count
+    return Id, count, Id_List
 
 def post_api_vals(url, person_id, attributeKey, attributeValue):
     global session  # Ensure the session is accessible
@@ -138,12 +141,86 @@ with open(csv_file_path, mode='r') as file:
 # Process each unique name in the CSV
 people = get_people()
 for (first_name, last_name), row in latest_records.items():
-    person_id, count = get_matches(people, first_name, last_name)
+    person_id, count, person_id_list = get_matches(people, first_name, last_name)
     
     if count > 1:
-        print(f"Multiple records found for {first_name} {last_name}\n")
+        print(f"Multiple records found for {first_name} {last_name}")
+        print(f"Additional Ids are listed {person_id_list}\n")
+        print(f"** Email Listed for GPS :: {row['email']}")
+        for person in person_id_list:
+            print(f"** Link for {person} :: https://rock.gdlc.org/person/{person}/extendedattributes")
+        newId = input("\nEnter correct person ID (enter to skip): ")
+        
+        if newId != "":
+            # Extract attributes from CSV row
+            attributes = {
+                "GPSSpiritualGift1": row['spiritual_gift_1'],
+                "GPSSpiritualGift2": row['spiritual_gift_2'],
+                "GPSSpiritualGift3": row['spiritual_gift_3'],
+                "GPSSpiritualGift4": row['spiritual_gift_4'],
+                "GPSSpiritualGift1Score": row['spiritual_gift_1_score'],
+                "GPSSpiritualGift2Score": row['spiritual_gift_2_score'],
+                "GPSSpiritualGift3Score": row['spiritual_gift_3_score'],
+                "GPSSpiritualGift4Score": row['spiritual_gift_4_score'],
+                "GPSKeyAbilities1": row['key_abilities_1'],
+                "GPSKeyAbilities2": row['key_abilities_2'],
+                "GPSKeyAbilities3": row['key_abilities_3'],
+                "GPSPassion1": row['passion_1'],
+                "GPSPassion2": row['passion_2'],
+                "GPSPassion3": row['passion_3'],
+                "GPSPassion1Score": row['passion_1_score'],
+                "GPSPassion2Score": row['passion_2_score'],
+                "GPSPassion3Score": row['passion_3_score'],
+                "GPSPeoplePassion1": row['people_passions_1'],
+                "GPSPeoplePassion2": row['people_passions_2'],
+                "GPSPeoplePassion3": row['people_passions_3'],
+                "GPSCausePassion1": row['cause_passions_1'],
+                "GPSCausePassion2": row['cause_passions_2'],
+                "GPSCausePassion3": row['cause_passions_3']
+            }
+
+            # Update attributes for the matched person
+            update_response = update_person_attributes(newId, attributes)
+            print(f"Updated attributes for {first_name} {last_name} (ID: {newId})\n")
+        else:
+            print(f"Skipping {first_name} {last_name}....\n")
     elif count == 0:
         print(f"No records found for {first_name} {last_name}\n")
+        newId = input("Input missing UserID (enter to skip): ")
+
+        if newId != "":
+            # Extract attributes from CSV row
+            attributes = {
+                "GPSSpiritualGift1": row['spiritual_gift_1'],
+                "GPSSpiritualGift2": row['spiritual_gift_2'],
+                "GPSSpiritualGift3": row['spiritual_gift_3'],
+                "GPSSpiritualGift4": row['spiritual_gift_4'],
+                "GPSSpiritualGift1Score": row['spiritual_gift_1_score'],
+                "GPSSpiritualGift2Score": row['spiritual_gift_2_score'],
+                "GPSSpiritualGift3Score": row['spiritual_gift_3_score'],
+                "GPSSpiritualGift4Score": row['spiritual_gift_4_score'],
+                "GPSKeyAbilities1": row['key_abilities_1'],
+                "GPSKeyAbilities2": row['key_abilities_2'],
+                "GPSKeyAbilities3": row['key_abilities_3'],
+                "GPSPassion1": row['passion_1'],
+                "GPSPassion2": row['passion_2'],
+                "GPSPassion3": row['passion_3'],
+                "GPSPassion1Score": row['passion_1_score'],
+                "GPSPassion2Score": row['passion_2_score'],
+                "GPSPassion3Score": row['passion_3_score'],
+                "GPSPeoplePassion1": row['people_passions_1'],
+                "GPSPeoplePassion2": row['people_passions_2'],
+                "GPSPeoplePassion3": row['people_passions_3'],
+                "GPSCausePassion1": row['cause_passions_1'],
+                "GPSCausePassion2": row['cause_passions_2'],
+                "GPSCausePassion3": row['cause_passions_3']
+            }
+
+            # Update attributes for the matched person
+            update_response = update_person_attributes(newId, attributes)
+            print(f"Updated attributes for {first_name} {last_name} (ID: {newId})\n")
+        else:
+            print(f"Skipping {first_name} {last_name}....\n")
     else:
         print(f"Match found for {first_name} {last_name} at ID={person_id}! Pushing attributes...")
         

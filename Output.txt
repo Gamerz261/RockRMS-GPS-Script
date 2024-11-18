@@ -1,0 +1,669 @@
+No records found for Cassie Alfaro
+
+No records found for Debbie Baacke
+
+Match found for Scott Blackley at ID=2671! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Scott Blackley (ID: 2671)
+
+Match found for Peter Brasier at ID=23024! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Peter Brasier (ID: 23024)
+
+No records found for Becca Brasier
+
+Match found for Cindy Carlson at ID=12443! Pushing attributes...
+Skipping GPSSpiritualGift1 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift1Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities1 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities2 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion1 because AttributeValue = '' (null)!
+Skipping GPSPassion2 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion1Score because AttributeValue = '' (null)!
+Skipping GPSPassion2Score because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion1 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion2 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion1 because AttributeValue = '' (null)!
+Skipping GPSCausePassion2 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Cindy Carlson (ID: 12443)
+
+No records found for Jerry Carlson
+
+No records found for Maria Chavez Mendoza
+
+Match found for Rhonda Cook at ID=5142! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Rhonda Cook (ID: 5142)
+
+Multiple records found for Joseph Cook
+
+Additional Ids are listed [1045, 5141]
+
+No records found for Ronda Cooper
+
+Match found for Dustin Cunningham at ID=9955! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Dustin Cunningham (ID: 9955)
+
+Match found for Amy Cupitt at ID=5091! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Amy Cupitt (ID: 5091)
+
+Match found for Alan Dell at ID=10046! Pushing attributes...
+Skipping GPSSpiritualGift1 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift1Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities1 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities2 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion1 because AttributeValue = '' (null)!
+Skipping GPSPassion2 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion1Score because AttributeValue = '' (null)!
+Skipping GPSPassion2Score because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion1 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion2 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion1 because AttributeValue = '' (null)!
+Skipping GPSCausePassion2 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Alan Dell (ID: 10046)
+
+Match found for Dave Dube at ID=5082! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Dave Dube (ID: 5082)
+
+Match found for Cindy Dube at ID=5083! Pushing attributes...
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Cindy Dube (ID: 5083)
+
+Match found for Caitlin Eatman at ID=3914! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Caitlin Eatman (ID: 3914)
+
+Match found for Randy Einem at ID=10900! Pushing attributes...
+Skipping GPSSpiritualGift1 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift1Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities1 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities2 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion1 because AttributeValue = '' (null)!
+Skipping GPSPassion2 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion1Score because AttributeValue = '' (null)!
+Skipping GPSPassion2Score because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion1 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion2 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion1 because AttributeValue = '' (null)!
+Skipping GPSCausePassion2 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Randy Einem (ID: 10900)
+
+No records found for Pam Fimble
+
+No records found for Kirsten Freund
+
+Match found for John Freund at ID=1601! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for John Freund (ID: 1601)
+
+No records found for tammi Freund
+
+Match found for Christian Gilbert at ID=18756! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Christian Gilbert (ID: 18756)
+
+Match found for Roxanne Gillum at ID=2387! Pushing attributes...
+Skipping GPSSpiritualGift1 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift1Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities1 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities2 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion1 because AttributeValue = '' (null)!
+Skipping GPSPassion2 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion1Score because AttributeValue = '' (null)!
+Skipping GPSPassion2Score because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion1 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion2 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion1 because AttributeValue = '' (null)!
+Skipping GPSCausePassion2 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Roxanne Gillum (ID: 2387)
+
+No records found for Pam Henjum
+
+Match found for Christina Hergenrader at ID=11207! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Christina Hergenrader (ID: 11207)
+
+Match found for Candice Howard at ID=5432! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Candice Howard (ID: 5432)
+
+Match found for Chase Janecek at ID=10866! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Chase Janecek (ID: 10866)
+
+Match found for Kyla Janecek at ID=10867! Pushing attributes...
+Skipping GPSSpiritualGift1 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift1Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities1 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities2 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion1 because AttributeValue = '' (null)!
+Skipping GPSPassion2 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion1Score because AttributeValue = '' (null)!
+Skipping GPSPassion2Score because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion1 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion2 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion1 because AttributeValue = '' (null)!
+Skipping GPSCausePassion2 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Kyla Janecek (ID: 10867)
+
+Match found for Cynthia Jenkins at ID=4898! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Cynthia Jenkins (ID: 4898)
+
+Match found for Jerry Jenkins at ID=4897! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Jerry Jenkins (ID: 4897)
+
+Match found for Jessica Jenkins at ID=9500! Pushing attributes...
+Skipping GPSSpiritualGift1 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift1Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities1 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities2 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion1 because AttributeValue = '' (null)!
+Skipping GPSPassion2 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion1Score because AttributeValue = '' (null)!
+Skipping GPSPassion2Score because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion1 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion2 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion1 because AttributeValue = '' (null)!
+Skipping GPSCausePassion2 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Jessica Jenkins (ID: 9500)
+
+Match found for Michael Kaemmer at ID=9968! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Michael Kaemmer (ID: 9968)
+
+Match found for Michelle Klein at ID=2576! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities2 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Michelle Klein (ID: 2576)
+
+Match found for Stephanie Knea at ID=597! Pushing attributes...
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Stephanie Knea (ID: 597)
+
+Match found for Lori Knutson at ID=6122! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Lori Knutson (ID: 6122)
+
+No records found for Patty Kolkmeier
+
+Match found for Jason Krog at ID=3097! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Jason Krog (ID: 3097)
+
+Match found for Emmalee Kuphal at ID=22161! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Emmalee Kuphal (ID: 22161)
+
+Match found for Sara Leimkuehler at ID=5861! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Sara Leimkuehler (ID: 5861)
+
+Match found for Alice Lentz at ID=1689! Pushing attributes...
+Skipping GPSSpiritualGift1 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift1Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities1 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities2 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion1 because AttributeValue = '' (null)!
+Skipping GPSPassion2 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion1Score because AttributeValue = '' (null)!
+Skipping GPSPassion2Score because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion1 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion2 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion1 because AttributeValue = '' (null)!
+Skipping GPSCausePassion2 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Alice Lentz (ID: 1689)
+
+No records found for Gloria Dei Lutheran Church
+
+Match found for Shannon Maron at ID=2777! Pushing attributes...
+Skipping GPSSpiritualGift1 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift1Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities1 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities2 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion1 because AttributeValue = '' (null)!
+Skipping GPSPassion2 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion1Score because AttributeValue = '' (null)!
+Skipping GPSPassion2Score because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion1 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion2 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion1 because AttributeValue = '' (null)!
+Skipping GPSCausePassion2 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Shannon Maron (ID: 2777)
+
+Match found for Cheryl Michalk at ID=5178! Pushing attributes...
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion2 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Cheryl Michalk (ID: 5178)
+
+Match found for Dwight Michalk at ID=5177! Pushing attributes...
+Skipping GPSSpiritualGift1 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift1Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities1 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities2 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion1 because AttributeValue = '' (null)!
+Skipping GPSPassion2 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion1Score because AttributeValue = '' (null)!
+Skipping GPSPassion2Score because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion1 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion2 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion1 because AttributeValue = '' (null)!
+Skipping GPSCausePassion2 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Dwight Michalk (ID: 5177)
+
+Match found for Randy Miller at ID=9445! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Randy Miller (ID: 9445)
+
+Match found for Georgene Moore at ID=5989! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Georgene Moore (ID: 5989)
+
+Match found for Melissa Olesen at ID=9198! Pushing attributes...
+Skipping GPSSpiritualGift1 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift1Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities1 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities2 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion1 because AttributeValue = '' (null)!
+Skipping GPSPassion2 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion1Score because AttributeValue = '' (null)!
+Skipping GPSPassion2Score because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion1 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion2 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion1 because AttributeValue = '' (null)!
+Skipping GPSCausePassion2 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Melissa Olesen (ID: 9198)
+
+Multiple records found for Soren Olesen
+
+Additional Ids are listed [9197, 24998]
+
+Match found for Crystal Oliver at ID=740! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Crystal Oliver (ID: 740)
+
+Match found for Richard Peltier at ID=5094! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Richard Peltier (ID: 5094)
+
+Match found for Jason Phelps at ID=18243! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Jason Phelps (ID: 18243)
+
+Match found for Ashley Phelps at ID=19071! Pushing attributes...
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Ashley Phelps (ID: 19071)
+
+No records found for Bella Phelps
+
+Match found for Jeanine Rainer at ID=19366! Pushing attributes...
+Skipping GPSSpiritualGift1 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift1Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities1 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities2 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion1 because AttributeValue = '' (null)!
+Skipping GPSPassion2 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion1Score because AttributeValue = '' (null)!
+Skipping GPSPassion2Score because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion1 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion2 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion1 because AttributeValue = '' (null)!
+Skipping GPSCausePassion2 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Jeanine Rainer (ID: 19366)
+
+Match found for Susan Reaves at ID=5026! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Susan Reaves (ID: 5026)
+
+Match found for Jason Rimington at ID=3339! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Jason Rimington (ID: 3339)
+
+Multiple records found for Nelson Rodriguez
+
+Additional Ids are listed [16897, 20107]
+
+Match found for Rick Rosenhagen at ID=3525! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Rick Rosenhagen (ID: 3525)
+
+No records found for Becky Rosenhagen
+
+Match found for Cindy Snapka at ID=5879! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Cindy Snapka (ID: 5879)
+
+Match found for Kirsten Solis at ID=1061! Pushing attributes...
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Kirsten Solis (ID: 1061)
+
+Match found for Tracy Stacey at ID=11282! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Updated attributes for Tracy Stacey (ID: 11282)
+
+Match found for Amy Van Cise at ID=5269! Pushing attributes...
+Skipping GPSSpiritualGift1 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift1Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities1 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities2 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion1 because AttributeValue = '' (null)!
+Skipping GPSPassion2 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion1Score because AttributeValue = '' (null)!
+Skipping GPSPassion2Score because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion1 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion2 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion1 because AttributeValue = '' (null)!
+Skipping GPSCausePassion2 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Amy Van Cise (ID: 5269)
+
+Match found for Jennifer Ward at ID=4030! Pushing attributes...
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Jennifer Ward (ID: 4030)
+
+Match found for Karin Warren at ID=4950! Pushing attributes...
+Skipping GPSSpiritualGift1 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift1Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift2Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift3Score because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4 because AttributeValue = '' (null)!
+Skipping GPSSpiritualGift4Score because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities1 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities2 because AttributeValue = '' (null)!
+Skipping GPSKeyAbilities3 because AttributeValue = '' (null)!
+Skipping GPSPassion1 because AttributeValue = '' (null)!
+Skipping GPSPassion2 because AttributeValue = '' (null)!
+Skipping GPSPassion3 because AttributeValue = '' (null)!
+Skipping GPSPassion1Score because AttributeValue = '' (null)!
+Skipping GPSPassion2Score because AttributeValue = '' (null)!
+Skipping GPSPassion3Score because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion1 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion2 because AttributeValue = '' (null)!
+Skipping GPSPeoplePassion3 because AttributeValue = '' (null)!
+Skipping GPSCausePassion1 because AttributeValue = '' (null)!
+Skipping GPSCausePassion2 because AttributeValue = '' (null)!
+Skipping GPSCausePassion3 because AttributeValue = '' (null)!
+Updated attributes for Karin Warren (ID: 4950)
+
+No records found for Audrey Werner
