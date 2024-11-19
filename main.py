@@ -47,7 +47,6 @@ def get_matches(personList, firstName, lastName):
     count = 0
     Id = None
     Id_List = []
-    Email_List = []
     
     for record in personList:
         if firstName == record['FirstName'] and lastName == record['LastName']:
