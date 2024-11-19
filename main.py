@@ -1,11 +1,12 @@
 import requests
 import csv
+import maskpass
 
 # Set up Rock RMS API details
 api_base_url = "https://rock.gdlc.org/api"
 login_url = f"{api_base_url}/Auth/Login"
 username = input("RockRMS Username :: ")
-password = input("RockRMS Password :: ")
+password = maskpass.askpass(prompt = "RockRMS Password :: ", mask = "*")
 
 
 # Function to authenticate and return a session
@@ -124,7 +125,7 @@ def update_person_attributes(person_id, attributes):
     post_api_vals(url, person_id, "GPSCausePassion3", attributes['GPSCausePassion3'])
 
 # Read CSV file
-csv_file_path = "user_assesments_new.csv"
+csv_file_path = input("CSV File Path :: ")
 
 with open(csv_file_path, mode='r') as file:
     csv_reader = csv.DictReader(file)
